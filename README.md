@@ -2,7 +2,7 @@
 by woodlangGeoEng
 
 ## This is a simple app with 3 Django models that allows a user to input an order in a fundraising event for a non-profit organization.
-You may use this code, but the creater bears no responsability for outcomes as a result of its use. THe app is currently preloaded for a garlic fundraiser, but that can be changed in the model.py file.
+You may use this code, but the creater bears no responsability for outcomes as a result of its use. The app is currently preloaded for a garlic fundraiser, but that can be changed in the model.py file.
 
 The admin tool is the primary means to track and view available items and orders. 
 A view form is available for users to enter their contact information and order choice.
