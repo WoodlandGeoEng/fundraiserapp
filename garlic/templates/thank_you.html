@@ -1,0 +1,21 @@
+{% extends "base_generic.html" %}
+
+{% block content %}
+  <h1>Thank You!</h1>
+  <p>for supporting <em>Birth Unlimited </em> with your garlic purchase. You will receive an email in mid-November with pickup times and dates. Your purchase summary is below. Please send payment to admin@BirthUnlimited.ca to ensure your order is completed. Thank You!</p>
+  
+  <h2> Fundraising Purchase Summary</h2>
+  <ul>
+    <li><strong>Item:</strong> {{ model_instance.purchase}}</li>
+    <li><strong>Quantity:</strong> {{ model_instance.count  }}</li>
+    <li><strong>Unit Price:</strong> {{ model_instance.price}}</li>
+    <li><strong>Total Cost:</strong> {{ model_instance.total }}</li>
+    <br>
+    <p> Please send payment to admin@BirthUnlimited.ca. Thank you! </p>
+   
+  </ul>
+  
+  <br>
+  <br>
+  <h2> Thanks for supporting Birth Unlimited and Birthing magazine!</h2>  
+{% endblock %}
