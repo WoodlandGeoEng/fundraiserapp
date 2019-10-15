@@ -9,11 +9,11 @@ A view form is available for users to enter their contact information and order 
 ***
 
 Dependencies:
-Python 3.6
+<br>Python 3.6
 <br> Django 2.2.6
-/n For windows, use pip to install the latest version of Django:
-/n pip install Django==2.2.6
-/n Link can also be found here: https://www.djangoproject.com/download/
+<br> For windows, use pip to install the latest version of Django:
+<br> pip install Django==2.2.6
+<br> Link can also be found here: https://www.djangoproject.com/download/
 
 ## Getting Started:
 
